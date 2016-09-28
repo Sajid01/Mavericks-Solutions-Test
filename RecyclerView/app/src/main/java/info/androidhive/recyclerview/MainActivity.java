@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements onSubmitListener{
         return json;
     }
 
-    // you can make this class as another java file so it will be separated from your main activity.
+    // AsyncTask to get Users
     public class AsyncTaskParseJson extends AsyncTask<String, String, String> {
 
         // contacts JSONArray
